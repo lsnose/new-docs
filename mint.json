@@ -71,18 +71,24 @@
       "pages": [
         "api-playground/overview",
         {
-          "group": "Using OpenAPI",
+          "group": "Setting up your API Reference",
           "pages": [
-            "api-playground/openapi/setup",
-            "api-playground/openapi/writing-openapi",
-            "api-playground/openapi/advanced-features"
-          ]
-        },
-        {
-          "group": "Using MDX",
-          "pages": [
-            "api-playground/mdx/configuration",
-            "api-playground/mdx/authentication"
+            "api-playground/setup/reference",
+            {
+              "group": "Using OpenAPI",
+              "pages": [
+                "api-playground/setup/openapi/setup",
+                "api-playground/setup/openapi/writing-openapi",
+                "api-playground/setup/openapi/advanced-features"
+              ]
+            },
+            {
+              "group": "Using MDX",
+              "pages": [
+                "api-playground/setup/mdx/configuration",
+                "api-playground/setup/mdx/authentication"
+              ]
+            }
           ]
         }
       ]
